@@ -103,7 +103,7 @@ img {
     min-height: 100vh;
     width: var(--sidbar-width);
     background: linear-gradient(rgba(3, 63, 71, 0.7), rgba(3, 63, 71, 0.7)),
-      url(../images/cabin.jpeg);
+      url(../images/sidebar-image.jpg);
     background-size: cover;
     background-position: center;
   }
