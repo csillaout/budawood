@@ -157,7 +157,29 @@ img {
   width: 100%;
 }
 
+@media (max-width: 400px) {
+  .link-custom {
+    display: block;
+    margin-top: 10px;
+  }
+}
 /* CARD */
+
+.carousel-item {
+  height: 300px;
+}
+
+.modal-dialog .modal-content .modal-header {
+  background-color: var(--color-base);
+}
+
+.modal-content .modal-body {
+  background-color: var(--color-base);
+}
+
+.modal-dialog .modal-footer {
+  background-color: var(--color-base);
+}
 .card-custom .card-custom-image {
   overflow: hidden;
 }
