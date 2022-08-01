@@ -227,6 +227,7 @@
                     ></button>
                   </div>
                   <div class="modal-body">
+                    
                     <!--Carousel-->
 
                     <div
@@ -296,7 +297,7 @@
                       >Your email address:</label
                     >
                     <input
-                      type="email "
+                      type="email"
                       class="form-control"
                       id="modal-email"
                       placeholder="e.g. mario@example.com"
@@ -342,10 +343,90 @@
                     contemporary or spiral staircases, we can manufacture any
                     design to suit your individual taste.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" class="link-custom" data-bs-toggle="modal"
+                  data-bs-target="#stair-modal">Read More</a>
                 </div>
               </div>
             </div>
+
+<!--Modal-->
+<div
+              class="modal fade"
+              id="stair-modal"
+              tabindex="-1"
+              aria-labelledby="modal-title"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">
+                      Staircases
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <!--Carousel-->
+
+                    <div
+                      id="carouselExControls"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./assets/images/budawood kepek/staircase.jpeg"
+                            class="d-block w-150"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./assets/images/budawood kepek/stairs.jpeg"
+                            class="d-block w-150 h-200"
+                            alt="..."
+                          />
+                        </div>
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExControls"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExControls"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <!--//Carousel-->
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--//Modal-->
 
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="card-custom rounded-4 bg-base shadow-effect">

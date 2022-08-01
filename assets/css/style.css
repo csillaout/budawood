@@ -180,6 +180,8 @@ img {
 .modal-dialog .modal-footer {
   background-color: var(--color-base);
 }
+
+
 .card-custom .card-custom-image {
   overflow: hidden;
 }
