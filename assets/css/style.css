@@ -165,9 +165,6 @@ img {
 }
 /* CARD */
 
-.carousel-item {
-  height: 300px;
-}
 
 .modal-dialog .modal-content .modal-header {
   background-color: var(--color-base);
