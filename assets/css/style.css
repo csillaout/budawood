@@ -124,6 +124,7 @@ img {
   font-weight: 700;
 }
 
+
 .btn-brand {
   background-color: var(--color-brand);
   border-color: var(--color-brand);
@@ -165,9 +166,7 @@ img {
 }
 /* CARD */
 
-.carousel-item {
-  height: 300px;
-}
+
 
 .modal-dialog .modal-content .modal-header {
   background-color: var(--color-base);
@@ -180,7 +179,6 @@ img {
 .modal-dialog .modal-footer {
   background-color: var(--color-base);
 }
-
 
 .card-custom .card-custom-image {
   overflow: hidden;
