@@ -112,11 +112,19 @@ img {
     border: 8px solid var(--color-brand);
   }
 
+
   /* CONTENT WRAPPER */
   #content-wrapper {
     padding-left: var(--sidbar-width);
   }
 }
+
+#home {
+    background-position: center;
+    background: linear-gradient(rgba(3, 63, 71, 0.7), rgba(3, 63, 71, 0.7)), url(../images/hero/Untitled\ design-3.png);
+      
+}
+
 
 /* BTN */
 .btn {
